@@ -1,0 +1,17 @@
+.tech {
+    padding: 4rem;
+    margin: 0 2rem;
+}
+
+.tech-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.tech-ball {
+    width: 112px;
+    height: 112px;
+}

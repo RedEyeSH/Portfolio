@@ -1,0 +1,383 @@
+.project {
+    padding: 4rem;
+    margin: 1px 2rem;
+}
+
+.project-header h1 {
+    font-size: 40px;
+}
+
+.project-header p {
+    color: rgb(170 166 195);
+}
+
+.project-container {
+    margin: 80px 20px 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.project-container::before {
+    content: "";
+    width: 4px;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+}
+
+.project-container ul {
+    margin: 20px 0 0 20px;
+}
+
+.project-container ul li {
+    margin-top: 8px;
+}
+
+.project-content {
+    margin-bottom: 4rem;
+    position: relative;
+}
+
+.project-box-one {
+    width: 44%;
+    padding: 24px;
+    background-color: rgb(29, 24, 54);
+    border-radius: 5px;
+    position: relative;
+}
+
+.project-box-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-box-header a {
+    width: 30px;
+    height: 30px;
+}
+
+.project-box-header svg {
+    width: 30px;
+    height: 30px;
+}
+
+.project-icon {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: 4px solid white;
+    left: 50%;
+    margin-left: -28.5px;
+    background-color: rgb(56, 62, 86);
+    box-shadow: 0 3px #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-icon svg {
+    width: 70%;
+    height: 70%;
+}
+
+.project-unity-icon path {
+    color: black;
+}
+
+.project-wordpress-icon path {
+    color: #00749C;
+}
+
+.project-react-icon path {
+    color: rgb(97, 219, 251);
+}
+
+.project-box-one span {
+    position: absolute;
+    left: 124%;
+    top: 0;
+    width: 100%;
+    opacity: 0.7;
+    padding: 1rem 0.5rem;
+}
+
+.project-content-two {
+    margin: 4rem 0;
+    position: relative;
+}
+
+.project-box-two {
+    width: 44%;
+    padding: 24px;
+    background-color: rgb(29, 24, 54);
+    border-radius: 5px;
+    float: right;
+    position: relative;
+}
+
+.project-box-two span {
+    position: absolute;
+    right: 124%;
+    top: 0;
+    width: 100%;
+    opacity: 0.7;
+    padding: 1rem 0.5rem;
+    text-align: right;
+}
+
+.project-content-three {
+    margin: 4rem 0;
+    position: relative;
+}
+
+.project-box-three {
+    width: 44%;
+    padding: 24px;
+    background-color: rgb(29, 24, 54);
+    border-radius: 5px;
+    position: relative;
+}
+
+.project-box-three span {
+    position: absolute;
+    left: 124%;
+    top: 0;
+    width: 100%;
+    opacity: 0.7;
+    padding: 1rem 0.5rem;
+}
+
+.project-content-four {
+    margin: 4rem 0;
+    position: relative;
+}
+
+.project-box-four {
+    width: 44%;
+    padding: 24px;
+    background-color: rgb(29, 24, 54);
+    border-radius: 5px;
+    float: right;
+    position: relative;
+}
+
+.project-box-four span {
+    position: absolute;
+    right: 124%;
+    top: 0;
+    width: 100%;
+    opacity: 0.7;
+    padding: 1rem 0.5rem;
+    text-align: right;
+}
+
+.project-fade-in-top {
+    animation: project-fade-in-top;
+}
+
+.project-pop {
+    animation: project-pop;
+}
+
+.project-fade-in-right {
+    animation: project-fade-in-right;
+}
+
+.project-fade-in-left {
+    animation: project-fade-in-left;
+}
+
+.project-pop {
+    animation: project-pop;
+}
+
+@media only screen and (max-width: 1170px) {
+    .project-container {
+        font-size: 14px;
+    }
+
+    .project-container::before {
+        position: absolute;
+        left: 18px;
+    }
+
+    .project-content {
+        margin-bottom: 32px;
+    }
+
+    .project-icon {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left: 0;
+        margin-left: 0;
+    }
+
+    .project-icon svg {
+        width: 70%;
+        height: 70%;
+    }
+
+    .project-box-one {
+        margin-left: 60px;  
+        width: auto;
+        padding: 1rem;
+    }
+
+    .project-box-one span {
+        position: relative;
+        left: 0;
+        top: 0;
+        padding: 1rem 0;
+        font-size: 13px;
+        display: inline-block;
+    }
+
+    .project-box-two {
+        margin-left: 60px;  
+        width: auto;
+        float: none;
+    }
+
+    .project-box-two span {
+        position: relative;
+        left: 0;
+        top: 0;
+        padding: 1rem 0;
+        font-size: 13px;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .project-box-three {
+        margin-left: 60px;  
+        width: auto;
+        float: none;
+    }
+
+    .project-box-three span {
+        position: relative;
+        left: 0;
+        top: 0;
+        padding: 1rem 0;
+        font-size: 13px;
+        display: inline-block;
+    }
+
+    .project-box-four {
+        margin-left: 60px;  
+        width: auto;
+        float: none;
+    }
+
+    .project-box-four span {
+        position: relative;
+        left: 0;
+        top: 0;
+        padding: 1rem 0;
+        font-size: 13px;
+        display: inline-block;
+        text-align: left;
+    }
+
+    .project-fade-in-right {
+        animation: project-fade-in-left 0.6s;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .project {
+        padding: 2.5rem 1.5rem;
+        margin: 0;
+    }
+
+    .project-container {
+        margin: 80px 0 0;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .project-header h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 315px) {
+    .project-header h1 {
+        font-size: 26px;
+    }
+}
+
+@keyframes project-fade-in-top {
+    0% {
+        opacity: 0;
+        transform: translateY(-75px);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes project-fade-in-right {
+    0% {
+        opacity: 0;
+        transform: translateX(-75px);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translateX(25px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes project-fade-in-left {
+    0% {
+        opacity: 0;
+        transform: translateX(75px);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translateX(-25px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes project-pop {
+    0% {
+        opacity: 0;
+        scale: 0.8;
+    }
+
+    60% {
+        opacity: 1;
+        scale: 1.2
+    }
+
+    100% {
+        scale: 1
+    }
+}
+
+@keyframes project-pop {
+    0% {
+        opacity: 0;
+    }
+
+    60% {
+        opacity: 1;
+    }
+}

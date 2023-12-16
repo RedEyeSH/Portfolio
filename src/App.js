@@ -1,23 +1,37 @@
-import logo from './logo.svg';
+// import React, { useEffect } from "react";
 import './App.css';
+import Navbar from './components/Navbar/Navbar.js';
+import Home from './components/Home/Home.js';
+import About from './components/About/About.js';
+import Project from "./components/Project/Project.js";
+import Contact from './components/Contact/Contact.js';
+import Work from "./components/Work/Work.js";
+import Tech from './components/Tech/Tech.js';
 
-function App() {
+const App = () => {
+  
+  // useEffect(() => {
+  //   const handleBeforeUnload = () => {
+  //     window.scrollTo(0, 0);
+  //   };
+
+  //   window.addEventListener('beforeunload', handleBeforeUnload);
+
+  //   return () => {
+  //     window.addEventListener('beforeunload', handleBeforeUnload);
+
+  //   };
+  // }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <Home />
+      <About />
+      <Project />
+      <Tech />
+      <Work />
+      <Contact />
     </div>
   );
 }
