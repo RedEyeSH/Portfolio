@@ -17,11 +17,9 @@
 .about-cards {
     margin-top: 5rem;
     display: flex;
-    /* align-items: center; */
     justify-content: center;
     gap: 2.5rem;
     font-size: 20px;
-    /* width: 100%; */
 }
 
 .about-tilt {
@@ -34,7 +32,6 @@
     min-height: 280px;
     padding: 1px;
     border-radius: 20px;
-    /* width: 100%; */
 }
 
 .about-card-content {

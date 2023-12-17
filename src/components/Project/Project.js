@@ -56,7 +56,7 @@ const Project = () => {
             <div className="project-box-two">
               <div className="project-box-header">
                 <h1>Varia</h1>
-                <a href="https://github.com/">
+                <a href="https://github.com/RedEyeSH/varia_theme">
                   <FontAwesomeIcon icon={faGithub} />
                 </a>
               </div>
