@@ -53,6 +53,11 @@
     cursor: pointer;
 }
 
+.company-logo {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
 .work-card-icon {
     width: 20px;
     height: 20px;

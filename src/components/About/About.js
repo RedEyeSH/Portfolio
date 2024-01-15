@@ -41,7 +41,7 @@ const About = () => {
               </motion.div>
             </Tilt>
           </Reveal>
-          <Reveal effect="about-fade-in-right" duration={1250}>
+          {/* <Reveal effect="about-fade-in-right" duration={1250}>
             <Tilt className="about-tilt">
               <div className="about-card">
                 <div className="about-card-content">
@@ -58,7 +58,7 @@ const About = () => {
                 </div>
               </div>
             </Tilt>
-          </Reveal>
+          </Reveal> */}
         </div>
       </div>
     </section>

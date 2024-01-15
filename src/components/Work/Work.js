@@ -1,5 +1,6 @@
 import React from 'react';
 import './Work.css';
+import CalevalaInteractive from './CalevalaInteractiveLogo.png'
 import Reveal from 'react-reveal/Reveal';
 import { Tilt } from 'react-tilt';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -19,6 +20,7 @@ const Work = () => {
                         <div className="work-card">
                             <div className="work-card-image">
                                 <div className="work-card-image-one">
+                                    <img className="company-logo" src={CalevalaInteractive} />
                                     <a href="https://github.com/satvikvelpula/FitPack">
                                         <FontAwesomeIcon className="work-card-icon" icon={faGithub} />
                                     </a>
