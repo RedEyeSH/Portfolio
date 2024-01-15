@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.776af7d4.css",
-    "main.js": "/portfolio/static/js/main.54da298a.js",
+    "main.css": "/portfolio/static/css/main.eba8bc3d.css",
+    "main.js": "/portfolio/static/js/main.ed6814fe.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
+    "static/media/CalevalaInteractiveLogo.png": "/portfolio/static/media/CalevalaInteractiveLogo.6fee5798a6578456e537.png",
     "static/media/MyImage.jpg": "/portfolio/static/media/MyImage.55b9649293146e0c73ea.jpg",
     "static/media/FitPack.png": "/portfolio/static/media/FitPack.e709cadb81daf042d1fb.png",
     "static/media/python.png": "/portfolio/static/media/python.632369df831d16241b59.png",
     "index.html": "/portfolio/index.html",
-    "main.776af7d4.css.map": "/portfolio/static/css/main.776af7d4.css.map",
-    "main.54da298a.js.map": "/portfolio/static/js/main.54da298a.js.map",
+    "main.eba8bc3d.css.map": "/portfolio/static/css/main.eba8bc3d.css.map",
+    "main.ed6814fe.js.map": "/portfolio/static/js/main.ed6814fe.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.776af7d4.css",
-    "static/js/main.54da298a.js"
+    "static/css/main.eba8bc3d.css",
+    "static/js/main.ed6814fe.js"
   ]
 }
